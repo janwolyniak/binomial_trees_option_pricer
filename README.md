@@ -1,6 +1,6 @@
 # Binomial Trees Option Pricer
 
-Minimal Python function to price vanilla European or American calls/puts with a Cox–Ross–Rubinstein binomial tree.
+Minimal Python function to price European or American calls/puts with a binomial tree.
 
 ## Function
 - `price_binomial_option(option="call", exercise="european", strike=1.0, spot=1.0, vol=0.2, rfr=0.0, texp=1.0, steps=100)`  
