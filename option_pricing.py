@@ -12,7 +12,6 @@ def price_binomial_option(
     texp=1.0,
     steps=100,
 ):
-    """Return (price, elapsed_seconds, num_paths)."""
     start = perf_counter()
 
     dt = texp / steps
